@@ -1,0 +1,23 @@
+{
+  "name": "victorstack/wp-mcp-adapter-demo",
+  "description": "Minimal MCP adapter demo for WordPress.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5",
+    "squizlabs/php_codesniffer": "^3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "WpMcpAdapterDemo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WpMcpAdapterDemo\\Tests\\": "tests/"
+    }
+  }
+}
