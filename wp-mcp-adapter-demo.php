@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: WP MCP Adapter Demo
  * Description: Minimal Model Context Protocol adapter demo for WordPress.
