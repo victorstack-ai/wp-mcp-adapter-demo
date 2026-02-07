@@ -57,6 +57,16 @@ curl -s https://example.test/wp-json/mcp/v1/tool \
 
 See `mcp.json` for a minimal descriptor that mirrors the capabilities endpoint.
 
+## Starter pattern (extensible Ability registry)
+
+This repo also contains the **starter** pattern (formerly the separate `wp-mcp-adapter-starter` repo), unified here to avoid maintaining two repos:
+
+- `starter-src/` — AbilityRegistry, McpAdapter, and SiteSummaryAbility (extensible pattern).
+- `starter-cli/` — example Node CLI client.
+- `mcp-starter.json` — sample MCP client config for the starter.
+
+Use the main plugin for a minimal demo; use the starter pattern when you want to register multiple abilities via a registry.
+
 ## Notes
 
 - This demo is intentionally small. It does not implement authentication, rate limiting, or user authorization.

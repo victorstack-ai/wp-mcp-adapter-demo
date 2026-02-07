@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wp-mcp-adapter-starter": {
+      "command": "node",
+      "args": ["cli/example-client.js"],
+      "env": {
+        "MCP_SERVER_URL": "https://example.com/wp-json/mcp/v1"
+      }
+    }
+  }
+}
