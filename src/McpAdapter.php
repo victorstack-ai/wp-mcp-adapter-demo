@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 namespace WpMcpAdapterDemo;
 
 final class McpAdapter
@@ -9,7 +13,7 @@ final class McpAdapter
     public function getCapabilities(): array
     {
         return [
-            'name' => 'wp-mcp-adapter-demo',
+            'name' => 'mcp-adapter',
             'version' => '0.1.0',
             'description' => 'Minimal MCP adapter demo exposing WordPress data via REST.',
             'tools' => [

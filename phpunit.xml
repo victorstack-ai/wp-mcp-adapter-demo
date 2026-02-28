@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <phpunit bootstrap="vendor/autoload.php" colors="true">
   <testsuites>
-    <testsuite name="WP MCP Adapter Demo">
+    <testsuite name="MCP Adapter">
       <directory>tests</directory>
     </testsuite>
   </testsuites>

@@ -1,5 +1,5 @@
 {
-  "name": "wp-mcp-adapter-demo",
+  "name": "mcp-adapter",
   "version": "0.1.0",
   "description": "Minimal MCP adapter demo exposing WordPress data via REST.",
   "endpoints": {

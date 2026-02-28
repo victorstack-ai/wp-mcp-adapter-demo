@@ -1,10 +1,13 @@
 # Directories
 .git/
 .github/
+.cursor/
 node_modules/
 tests/
 vendor/
 bin/
+starter-src/
+starter-cli/
 
 # Dev config
 .distignore
@@ -24,8 +27,10 @@ phpstan.neon.dist
 phpunit.xml
 phpunit.xml.dist
 grumphp.yml
+mcp-starter.json
 
 # Project files
+README.md
 SECURITY.md
 CHANGELOG.md
 CONTRIBUTING.md

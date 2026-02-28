@@ -1,5 +1,5 @@
 {
-  "name": "victorstack/wp-mcp-adapter-demo",
+  "name": "victorstack/mcp-adapter",
   "description": "Minimal MCP adapter demo for WordPress.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",

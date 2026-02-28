@@ -14,7 +14,7 @@ final class McpAdapterTest extends TestCase
         $adapter = new McpAdapter();
         $capabilities = $adapter->getCapabilities();
 
-        self::assertSame('wp-mcp-adapter-demo', $capabilities['name']);
+        self::assertSame('mcp-adapter', $capabilities['name']);
         self::assertArrayHasKey('tools', $capabilities);
         self::assertNotEmpty($capabilities['tools']);
     }

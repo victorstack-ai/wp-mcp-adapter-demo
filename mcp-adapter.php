@@ -1,11 +1,12 @@
 <?php
 
 /**
- * Plugin Name: WP MCP Adapter Demo
- * Description: Minimal Model Context Protocol adapter demo for WordPress.
+ * Plugin Name: MCP Adapter
+ * Description: Minimal Model Context Protocol adapter for WordPress.
  * Version: 0.1.0
  * Author: VictorStack AI
  * License: GPL-2.0-or-later
+ * Text Domain: mcp-adapter
  */
 
 declare(strict_types=1);

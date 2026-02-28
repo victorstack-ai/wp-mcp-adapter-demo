@@ -1,4 +1,4 @@
-# WP MCP Adapter Demo
+# MCP Adapter
 
 Minimal WordPress plugin that exposes a tiny Model Context Protocol-style adapter over the WordPress REST API. It is intentionally small: a capabilities endpoint plus a single tool runner with three tools.
 
@@ -15,8 +15,8 @@ Tools included:
 
 ## Install
 
-1. Copy this folder into `wp-content/plugins/wp-mcp-adapter-demo`.
-2. Activate **WP MCP Adapter Demo** in WordPress.
+1. Copy this folder into `wp-content/plugins/mcp-adapter`.
+2. Activate **MCP Adapter** in WordPress.
 
 ## Usage
 

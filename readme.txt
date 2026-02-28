@@ -1,4 +1,4 @@
-=== WP MCP Adapter Demo ===
+=== MCP Adapter ===
 Contributors: victorstackai
 Tags: mcp, model-context-protocol, ai, api, rest
 Requires at least: 6.0
@@ -8,15 +8,15 @@ Stable tag: 0.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Minimal Model Context Protocol adapter demo for WordPress.
+Minimal Model Context Protocol adapter for WordPress.
 
 == Description ==
 
-WP MCP Adapter Demo provides a minimal implementation of the Model Context Protocol (MCP) for WordPress. It exposes REST API endpoints that allow AI tools and agents to discover and interact with your WordPress site's capabilities.
+MCP Adapter provides a minimal implementation of the Model Context Protocol (MCP) for WordPress. It exposes REST API endpoints that allow AI tools and agents to discover and interact with your WordPress site's capabilities.
 
 == Installation ==
 
-1. Upload the `wp-mcp-adapter-demo` folder to the `/wp-content/plugins/` directory.
+1. Upload the `mcp-adapter` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Access MCP endpoints at `/wp-json/mcp/v1/`.
 
