@@ -5,7 +5,7 @@
  * Description: Minimal Model Context Protocol adapter demo for WordPress.
  * Version: 0.1.0
  * Author: VictorStack AI
- * License: GPLv2 or later
+ * License: GPL-2.0-or-later
  */
 
 declare(strict_types=1);
